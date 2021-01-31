@@ -1,0 +1,117 @@
+body {
+    background-image: url(jour.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.parcours {
+    margin-top: 10%;
+    height: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+
+#{
+
+}
+}
+
+ul {
+    margin-left: 15%;
+}
+
+li {
+    padding-top: 3%;
+    list-style-type: none;
+
+}
+
+.boite {
+    width: 900px;
+    height: 1500px;
+    border: solid 2px black;
+    margin: auto;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgba(40, 212, 233, .6)
+}
+a:hover {
+    color: red;
+    
+}
+
+.anchor {
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+}
+
+.bandeau {
+    width: 897px;
+    height: 20px;
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+
+#fleche {
+    height: 50px;
+    position: fixed;
+    right: 45px;
+    bottom: 10px;
+}
+
+.liste {
+    margin-top: 3%;
+    height: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+/* .highlight {
+    padding: 2px 8px;
+    background-color: #000;
+    color: #fff;
+} */
+
+.star {
+    margin-top: 3%;
+    height: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.planet {
+    margin-top: 3%;
+    height: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.logo a {
+    display: block;
+}
+#image1:hover{
+    transform:scale(1.1)
+}
+#image2:hover{
+    transform:scale(1.1)
+}
